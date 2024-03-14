@@ -1,0 +1,9 @@
+from string import ascii_lowercase as letters
+
+for first_letter in letters:
+  for second_letter in letters:
+    print (first_letter + second_letter)
+
+
+
+# Provide a script printing every possible pairs of two letters, only lower case, one by line, ordered alphabetically.
