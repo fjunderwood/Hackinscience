@@ -1,0 +1,12 @@
+sec_in_year = 365 * 24 * 60 * 60
+
+print("Number of seconds in a year is " + str(sec_in_year))
+
+
+
+# Write a Python program displaying the number of seconds in 365 days.
+
+# You'll need the print function to display the result.
+
+# You'll need the * operator for the multiplications.
+
