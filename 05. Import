@@ -1,0 +1,13 @@
+import math
+
+num = 27
+
+factor = math.factorial(num)
+
+print("The fastorial of", num, "is:", factor)
+
+
+
+# Write a script that print the factorial of 27.
+
+# Use the factorial function from the math module.
