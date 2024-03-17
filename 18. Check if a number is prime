@@ -17,14 +17,14 @@ def is_prime(n):
 		
 			if (n % i) == 0:
 			
-				return "Not Prime"
+				return False
 			
 	  
-		return "Prime"
+		return True
 		
 	else:
 	 
-		return "Not Prime"
+		return False
 
 
 
