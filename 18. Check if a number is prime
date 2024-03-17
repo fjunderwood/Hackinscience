@@ -1,0 +1,36 @@
+ver. 1:
+
+def is_prime(n):
+
+	return True if all(n % i for i in range(2, int(n ** 0.5) + 1)) and n != 1 else False
+
+
+
+ver. 2:
+
+def is_prime(n):
+
+
+	if n != 1:
+	
+		for i in range(2, int(n ** 0.5) + 1):
+		
+			if (n % i) == 0:
+			
+				return "Not Prime"
+			
+	  
+		return "Prime"
+		
+	else:
+	 
+		return "Not Prime"
+
+
+
+
+# Define the function is_prime(n).
+
+# n is number that the function is_prime takes as a parameter.
+
+# The function is_prime return True if n is a prime number, False otherwise.
